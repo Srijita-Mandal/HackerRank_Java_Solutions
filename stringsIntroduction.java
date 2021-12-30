@@ -30,7 +30,7 @@ https://www.hackerrank.com/challenges/java-strings-introduction/problem?isFullSc
 
 
 >>> Solution
-/*
+*/
 
 import java.io.*;
 import java.util.*;
