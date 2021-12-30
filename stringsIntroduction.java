@@ -49,18 +49,19 @@ public class Solution {
         } else{
             System.out.println("No");
         }
-        String firstLetA = A.substring(0,1);
-        String firstLetB = B.substring(0,1);
-        String remLetA = A.substring(1);
-        String remLetB = B.substring(1);
-        String firstLetCapsA = firstLetA.toUpperCase();
-        String firstLetCapsB = firstLetB.toUpperCase();
+    //   String firstLetA = A.substring(0,1);
+    //   String firstLetB = B.substring(0,1);
+    //   String remLetA = A.substring(1);
+    //   String remLetB = B.substring(1);
+    //   String firstLetCapsA = firstLetA.toUpperCase();
+    //   String firstLetCapsB = firstLetB.toUpperCase();
         
-        String newA = firstLetCapsA+remLetA;
-        String newB = firstLetCapsB+remLetB;
+    //   String newA = firstLetCapsA+remLetA;
+    //   String newB = firstLetCapsB+remLetB;
         
-        String word = newA+" "+newB;
-        System.out.println(word);
+    //   String word = newA+" "+newB;
+    //   System.out.println(word);
+        System.out.println(A.substring(0,1).toUpperCase()+A.substring(1)+" "+B.substring(0,1).toUpperCase()+B.substring(1));
         
     }
 }
